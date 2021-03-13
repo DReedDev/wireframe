@@ -1,0 +1,67 @@
+body, header, nav, main, aside, footer, div, figure, blockquote, .logo {
+  border: 1px solid limegreen;
+}
+
+body{
+  height: 100vh;
+  background-color: black;
+  color: limegreen;
+}
+
+a{
+  color:limegreen;
+  text-decoration:none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-content:center;
+  height: 8vh;
+}
+
+.logo{
+  padding:2.5vh 1vh;
+  letter-spacing:2px;
+}
+
+nav{
+  display:flex;
+  width:40%;
+}
+
+.nav-list{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  list-style:none;
+  padding-left:0;
+}
+
+main{
+  height:84vh;
+  padding:0 10vw;
+  font-family:sans-serif;
+  font-size:18px;
+  line-height:1.5;
+}
+
+h1{
+  text-align:center;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height:8vh;
+}
+
+  
+
+
+ 
+
+
+
